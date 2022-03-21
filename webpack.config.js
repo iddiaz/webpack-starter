@@ -6,6 +6,8 @@ const CopyPlugin           = require("copy-webpack-plugin");
 
 module.exports = {
    mode: 'development',
+   target: "web",
+   devtool: 'source-map',
 
    output: {
       clean: true
@@ -55,7 +57,9 @@ module.exports = {
        }),
       
       
-   ]
+   ],
+   devServer: {}
+
 }
 
 
