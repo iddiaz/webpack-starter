@@ -1,2 +1,2 @@
-# Webpack starter scafolding 
+# Webpack starter scafolding css modules
 

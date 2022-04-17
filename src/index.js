@@ -1,8 +1,11 @@
-import { saludar } from "./js/component.js"; 
-import './styles.css';
+import styles from './styles.css';
 
+console.log(styles);
 
-console.log('index loaded');
+const element = document.querySelector(".element");
 
-
-saludar();
+element.innerHTML = `
+   <div class="${styles.page}">
+     <p class="${styles.text}">CSS Modules Webpack</p>
+   </div>
+`;
